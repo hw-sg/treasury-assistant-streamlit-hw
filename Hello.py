@@ -24,9 +24,9 @@ def run():
         page_icon="👋",
     )
 
-    st.write("# Welcome to Streamlit! 👋")
+    st.write("# Welcome to Treasury Assistant! ")
 
-    st.sidebar.success("Select a demo above.")
+    st.sidebar.success("Select an option above.")
 
     st.markdown(
         """
