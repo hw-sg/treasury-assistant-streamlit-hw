@@ -15,7 +15,13 @@ st.set_page_config(page_title="Fed Fund Rate History ", page_icon="📈")
 st.markdown("# Fed Fund Rate History ")
 st.write("""The chart below shows the Fed Fund Rate History.""")
 
-source = data.stocks()
+# assigning url to a variable
+url="https://raw.githubusercontent.com/Tanishqa-10/AskPython/main/Sampledata.csv"
+ 
+# passing parameter to the function
+source =pd.read_csv(url)
+
+#source = data.stocks()
 
 alt.Chart(source).mark_area(
     color="lightblue",
