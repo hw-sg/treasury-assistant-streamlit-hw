@@ -94,8 +94,7 @@ def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
 
 st.set_page_config(page_title="Central Bank Meeting Dates", page_icon="📈")
 st.markdown("# Central Bank Meeting Dates ")
-st.write("""The below table list down the various Central Banks' meetings date in 2024. 
-Select "Add filters" to filter by country""")
+st.write("""The below table list down the various Central Banks' meetings date in 2024. Select "Add filters" to filter by different country.""")
 
 df = pd.DataFrame(
     [
