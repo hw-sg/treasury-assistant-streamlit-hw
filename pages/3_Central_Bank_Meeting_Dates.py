@@ -92,6 +92,12 @@ def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
+st.set_page_config(page_title="Central Bank Meeting Dates", page_icon="📈")
+st.markdown("# Central Bank Meeting Dates ")
+st.write(
+    """The below table list down the Central Bank meetings date in 2024. 
+"""
+
 df = pd.DataFrame(
     [
         {"month": "Jan", "qtr": 1, "country": "US", "Date": "2024/01/31",},
