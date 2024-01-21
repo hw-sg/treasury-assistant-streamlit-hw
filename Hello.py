@@ -30,7 +30,7 @@ def run():
 
     st.markdown(
         """
-        Respect is very important ok... you my little xiao mee fong
+        Respect is very important ok... you my little xiao mee fong... Stay calm and time management is very important ok.. my baby boy
     """
     )
 
