@@ -34,7 +34,7 @@ df = pd.DataFrame(
     ]
 )
 
-st.dataframe(df, use_container_width=True)
+#st.dataframe(df, use_container_width=True)
 
 
 def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
