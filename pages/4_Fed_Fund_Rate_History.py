@@ -24,6 +24,10 @@ from streamlit.hello.utils import show_code
 import streamlit as st
 import pandas as pd
 
+st.set_page_config(page_title="Fed Fund Rate History ", page_icon="📈")
+st.markdown("# Fed Fund Rate History ")
+st.write("""The chart shows the Fed Fund Rate History.""")
+
 df = pd.DataFrame(
     [
         {"month": "Jan", "Date": 31,},
