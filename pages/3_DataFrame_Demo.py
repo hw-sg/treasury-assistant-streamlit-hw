@@ -28,16 +28,16 @@ df = pd.DataFrame(
     [
         {"month": "Jan", "Date": 31,},
         {"month": "Feb", "Date": ,},
-        {"month": "Mar", "Date": 20, },
-        {"month": "Apr", "Date": , },
-        {"month": "May", "Date": 1, },
-        {"month": "Jun", "Date": 12, },
-        {"month": "Jul", "Date": 31, },
-        {"month": "Aug", "Date": 20, },
-        {"month": "Sep", "Date": , },
-        {"month": "Oct", "Date": , },
-        {"month": "Nov", "Date": 7, },
-        {"month": "Dec", "Date": 18, },
+        {"month": "Mar", "Date": 20,},
+        {"month": "Apr", "Date": ,},
+        {"month": "May", "Date": 1,},
+        {"month": "Jun", "Date": 12,},
+        {"month": "Jul", "Date": 31,},
+        {"month": "Aug", "Date": 20,},
+        {"month": "Sep", "Date": ,},
+        {"month": "Oct", "Date": ,},
+        {"month": "Nov", "Date": 7,},
+        {"month": "Dec", "Date": 18,},
     ]
 )
 
