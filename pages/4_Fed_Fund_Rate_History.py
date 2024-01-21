@@ -16,7 +16,7 @@ st.markdown("# Fed Fund Rate History ")
 st.write("""The chart below shows the Fed Fund Rate History.""")
 
 # assigning url to a variable
-url="https://raw.githubusercontent.com/Tanishqa-10/AskPython/main/Sampledata.csv"
+url="https://github.com/hw-sg/treasury-assistant-streamlit-hw/blob/d5defa0c0ff536bd00026a04d3d2a0ce8290ae56/Fed_Rate.csv"
  
 # passing parameter to the function
 source =pd.read_csv(url)
@@ -28,6 +28,6 @@ alt.Chart(source).mark_area(
     interpolate='step-after',
     line=True
 ).encode(
-    x='date',
-    y='price'
-).transform_filter(alt.datum.symbol == 'GOOG')
+    x='Date',
+    y='Fed_Rate'
+)
