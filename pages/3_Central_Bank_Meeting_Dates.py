@@ -98,22 +98,22 @@ st.write("""The below table list down the various Central Banks' meetings date i
 
 df = pd.DataFrame(
     [
-        {"month": "Jan", "qtr": 1, "country": "US", "Date": "2024/01/31",},
-        {"month": "Feb", "qtr": 1, "country": "AU", "Date": "2024/02/06",},
-        {"month": "Mar", "qtr": 1, "country": "US", "Date": "2024/03/20",},
-        {"month": "Mar", "qtr": 1, "country": "AU", "Date": "2024/03/19",},
-        {"month": "May", "qtr": 2, "country": "US", "Date": "2024/05/01",},
-        {"month": "May", "qtr": 2, "country": "AU", "Date": "2024/05/07",},
-        {"month": "Jun", "qtr": 2, "country": "US", "Date": "2024/06/12",},
-        {"month": "Jun", "qtr": 2, "country": "AU", "Date": "2024/06/18",},
-        {"month": "Jul", "qtr": 3, "country": "US", "Date": "2024/07/31",},
-        {"month": "Aug", "qtr": 3, "country": "US", "Date": "2024/08/20",},
-        {"month": "Aug", "qtr": 3, "country": "AU", "Date": "2024/08/06",},
-        {"month": "Sep", "qtr": 3, "country": "AU", "Date": "2024/09/24",},
-        {"month": "Nov", "qtr": 4, "country": "AU", "Date": "2024/11/05",},
-        {"month": "Nov", "qtr": 4, "country": "US", "Date": "2024/11/07",},
-        {"month": "Dec", "qtr": 4, "country": "AU", "Date": "2024/12/10",},
-        {"month": "Dec", "qtr": 4, "country": "US", "Date": "2024/12/18",},
+        {"Month": "Jan", "Quarter": 1, "Country": "US", "Date": "2024/01/31",},
+        {"Month": "Feb", "Quarter": 1, "Country": "AU", "Date": "2024/02/06",},
+        {"Month": "Mar", "Quarter": 1, "Country": "US", "Date": "2024/03/20",},
+        {"Month": "Mar", "Quarter": 1, "Country": "AU", "Date": "2024/03/19",},
+        {"Month": "May", "Quarter": 2, "Country": "US", "Date": "2024/05/01",},
+        {"Month": "May", "Quarter": 2, "Country": "AU", "Date": "2024/05/07",},
+        {"Month": "Jun", "Quarter": 2, "Country": "US", "Date": "2024/06/12",},
+        {"Month": "Jun", "Quarter": 2, "Country": "AU", "Date": "2024/06/18",},
+        {"Month": "Jul", "Quarter": 3, "Country": "US", "Date": "2024/07/31",},
+        {"Month": "Aug", "Quarter": 3, "Country": "US", "Date": "2024/08/20",},
+        {"Month": "Aug", "Quarter": 3, "Country": "AU", "Date": "2024/08/06",},
+        {"Month": "Sep", "Quarter": 3, "Country": "AU", "Date": "2024/09/24",},
+        {"Month": "Nov", "Quarter": 4, "Country": "AU", "Date": "2024/11/05",},
+        {"Month": "Nov", "Quarter": 4, "Country": "US", "Date": "2024/11/07",},
+        {"Month": "Dec", "Quarter": 4, "Country": "AU", "Date": "2024/12/10",},
+        {"Month": "Dec", "Quarter": 4, "Country": "US", "Date": "2024/12/18",},
     ]
 )
 
