@@ -99,11 +99,9 @@ st.write("""The below table list down the various Central Banks' meetings date i
 df = pd.DataFrame(
     [
         {"month": "Jan", "qtr": 1, "country": "US", "Date": "2024/01/31",},
-        {"month": "Jan", "qtr": 1, "country": "AU", "Date": "2024/02/06",},
-        {"month": "Feb", "qtr": 1, "country": "US", "Date": "",},
+        {"month": "Feb", "qtr": 1, "country": "AU", "Date": "2024/02/06",},
         {"month": "Mar", "qtr": 1, "country": "US", "Date": "2024/03/20",},
-        {"month": "Jan", "qtr": 1, "country": "AU", "Date": "2024/03/19",},
-        {"month": "Apr", "qtr": 2, "country": "US", "Date": "",},
+        {"month": "Mar", "qtr": 1, "country": "AU", "Date": "2024/03/19",},
         {"month": "May", "qtr": 2, "country": "US", "Date": "2024/05/01",},
         {"month": "May", "qtr": 2, "country": "AU", "Date": "2024/05/07",},
         {"month": "Jun", "qtr": 2, "country": "US", "Date": "2024/06/12",},
@@ -111,12 +109,10 @@ df = pd.DataFrame(
         {"month": "Jul", "qtr": 3, "country": "US", "Date": "2024/07/31",},
         {"month": "Aug", "qtr": 3, "country": "US", "Date": "2024/08/20",},
         {"month": "Aug", "qtr": 3, "country": "AU", "Date": "2024/08/06",},
-        {"month": "Sep", "qtr": 3, "country": "US", "Date": "",},
-        {"month": "Aug", "qtr": 3, "country": "AU", "Date": "2024/09/24",},
-        {"month": "Oct", "qtr": 4, "country": "US", "Date": "",},
-        {"month": "Aug", "qtr": 3, "country": "AU", "Date": "2024/11/05",},
+        {"month": "Sep", "qtr": 3, "country": "AU", "Date": "2024/09/24",},
+        {"month": "Nov", "qtr": 4, "country": "AU", "Date": "2024/11/05",},
         {"month": "Nov", "qtr": 4, "country": "US", "Date": "2024/11/07",},
-        {"month": "Aug", "qtr": 3, "country": "AU", "Date": "2024/12/10",},
+        {"month": "Dec", "qtr": 4, "country": "AU", "Date": "2024/12/10",},
         {"month": "Dec", "qtr": 4, "country": "US", "Date": "2024/12/18",},
     ]
 )
