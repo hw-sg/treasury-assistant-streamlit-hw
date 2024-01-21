@@ -94,18 +94,19 @@ def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
 
 df = pd.DataFrame(
     [
-        {"month": "Jan", "qtr": 1, "country": "US", "Date": 31,},
+        {"month": "Jan", "qtr": 1, "country": "US", "Date": "2024/01/31",},
+        {"month": "Jan", "qtr": 1, "country": "AU", "Date": "2024/02/06",},
         {"month": "Feb", "qtr": 1, "country": "US", "Date": "",},
-        {"month": "Mar", "qtr": 1, "country": "US", "Date": 20,},
+        {"month": "Mar", "qtr": 1, "country": "US", "Date": "2024/03/20",},
         {"month": "Apr", "qtr": 2, "country": "US", "Date": "",},
-        {"month": "May", "qtr": 2, "country": "US", "Date": 1,},
-        {"month": "Jun", "qtr": 2, "country": "US", "Date": 12,},
-        {"month": "Jul", "qtr": 3, "country": "US", "Date": 31,},
-        {"month": "Aug", "qtr": 3, "country": "US", "Date": 20,},
+        {"month": "May", "qtr": 2, "country": "US", "Date": "2024/05/01",},
+        {"month": "Jun", "qtr": 2, "country": "US", "Date": "2024/06/12",},
+        {"month": "Jul", "qtr": 3, "country": "US", "Date": "2024/07/31",},
+        {"month": "Aug", "qtr": 3, "country": "US", "Date": "2024/08/20",},
         {"month": "Sep", "qtr": 3, "country": "US", "Date": "",},
         {"month": "Oct", "qtr": 4, "country": "US", "Date": "",},
-        {"month": "Nov", "qtr": 4, "country": "US", "Date": 7,},
-        {"month": "Dec", "qtr": 4, "country": "US", "Date": 18,},
+        {"month": "Nov", "qtr": 4, "country": "US", "Date": "2024/11/07",},
+        {"month": "Dec", "qtr": 4, "country": "US", "Date": "2024/12/18",},
     ]
 )
 
