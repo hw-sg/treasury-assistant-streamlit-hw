@@ -16,9 +16,11 @@ st.write("""The chart below shows the Fed Fund Rate History.""")
 
 # url="https://github.com/hw-sg/treasury-assistant-streamlit-hw/blob/d5defa0c0ff536bd00026a04d3d2a0ce8290ae56/Fed_Rate.csv"
 # source =pd.read_csv(url)
+#df = pd.read_csv("Fed_Rate.csv")
 
 
-df = pd.read_csv("Fed_Rate.csv")
+df = pd.read_csv(https://github.com/hw-sg/treasury-assistant-streamlit-hw/blob/d5defa0c0ff536bd00026a04d3d2a0ce8290ae56/Fed_Rate.csv", sep=",")
+
 st.dataframe(df)
 
 st.title("Fed Fund Rate History")
