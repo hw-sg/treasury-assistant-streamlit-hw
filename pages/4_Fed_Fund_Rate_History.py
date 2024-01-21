@@ -2,13 +2,8 @@ from urllib.error import URLError
 
 import altair as alt
 import pandas as pd
-
 import streamlit as st
-from streamlit.hello.utils import show_code
-
-import streamlit as st
-import pandas as pd
-import plotly.express as px
+import numpy as np
 
 st.set_page_config(page_title="Fed Fund Rate History ", page_icon="📈")
 st.markdown("# Fed Fund Rate History ")
@@ -23,12 +18,8 @@ df = pd.read_csv("https://github.com/hw-sg/treasury-assistant-streamlit-hw/blob/
 
 st.dataframe(df)
 
-st.title("Fed Fund Rate History")
+#st.title("Fed Fund Rate History")
 
-contact_options = ["Fed_Rate", "Date"]
-contact_selected = st.selectbox("Select a Students value", contact_options)
+chart_data = pd.DataFrame(np.random.randn(20, 3), columns=["a", "b", "c"])
 
-inform = f"Students {contact_selected} Chart:"
-fig = px.line(df, x="Name", y=contact_selected, title=inform)
-
-st.plotly_chart(fig, use_container_width=True)
+st.line_chart(chart_data)
