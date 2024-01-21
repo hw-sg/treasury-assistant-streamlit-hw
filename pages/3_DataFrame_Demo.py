@@ -17,26 +17,6 @@ from streamlit.hello.utils import show_code
 import streamlit as st
 import pandas as pd
 
-df = pd.DataFrame(
-    [
-        {"month": "Jan", "qtr": 1, "country": "US", "Date": 31,},
-        {"month": "Feb", "qtr": 1, "country": "US", "Date": "",},
-        {"month": "Mar", "qtr": 1, "country": "US", "Date": 20,},
-        {"month": "Apr", "qtr": 2, "country": "US", "Date": "",},
-        {"month": "May", "qtr": 2, "country": "US", "Date": 1,},
-        {"month": "Jun", "qtr": 2, "country": "US", "Date": 12,},
-        {"month": "Jul", "qtr": 3, "country": "US", "Date": 31,},
-        {"month": "Aug", "qtr": 3, "country": "US", "Date": 20,},
-        {"month": "Sep", "qtr": 3, "country": "US", "Date": "",},
-        {"month": "Oct", "qtr": 4, "country": "US", "Date": "",},
-        {"month": "Nov", "qtr": 4, "country": "US", "Date": 7,},
-        {"month": "Dec", "qtr": 4, "country": "US", "Date": 18,},
-    ]
-)
-
-#st.dataframe(df, use_container_width=True)
-
-
 def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
     """
     Adds a UI on top of a dataframe to let viewers filter columns
@@ -112,3 +92,23 @@ def filter_dataframe(df: pd.DataFrame) -> pd.DataFrame:
 
     return df
 
+df = pd.DataFrame(
+    [
+        {"month": "Jan", "qtr": 1, "country": "US", "Date": 31,},
+        {"month": "Feb", "qtr": 1, "country": "US", "Date": "",},
+        {"month": "Mar", "qtr": 1, "country": "US", "Date": 20,},
+        {"month": "Apr", "qtr": 2, "country": "US", "Date": "",},
+        {"month": "May", "qtr": 2, "country": "US", "Date": 1,},
+        {"month": "Jun", "qtr": 2, "country": "US", "Date": 12,},
+        {"month": "Jul", "qtr": 3, "country": "US", "Date": 31,},
+        {"month": "Aug", "qtr": 3, "country": "US", "Date": 20,},
+        {"month": "Sep", "qtr": 3, "country": "US", "Date": "",},
+        {"month": "Oct", "qtr": 4, "country": "US", "Date": "",},
+        {"month": "Nov", "qtr": 4, "country": "US", "Date": 7,},
+        {"month": "Dec", "qtr": 4, "country": "US", "Date": 18,},
+    ]
+)
+
+#st.dataframe(df, use_container_width=True)
+
+st.dataframe(filter_dataframe(df))
