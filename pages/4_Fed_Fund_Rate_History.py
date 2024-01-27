@@ -29,9 +29,9 @@ st.checkbox("Use container width", value=False, key="use_container_width")
 df = load_data()
 
 st.dataframe(df)
+st.line_chart(df)
 
 #st.title("Fed Fund Rate History")
 
 #chart_data = pd.DataFrame(np.random.randn(20, 3), columns=["a", "b", "c"])
 
-#st.line_chart(chart_data)
