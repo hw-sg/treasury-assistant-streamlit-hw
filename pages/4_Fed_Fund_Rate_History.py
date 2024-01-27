@@ -14,8 +14,8 @@ st.write("""The chart below shows the Fed Fund Rate History.""")
 #df = pd.read_csv("https://github.com/hw-sg/treasury-assistant-streamlit-hw/blob/d5defa0c0ff536bd00026a04d3d2a0ce8290ae56/Fed_Rate.csv", sep=",")
 
 # Cache the dataframe so it's only loaded once
-@st.cache_data
-def load_data():
+#@st.cache_data
+#def load_data():
     return pd.DataFrame(
         {
             "Date": [16/12/2008, 17/12/2008, 18/12/2008, 19/12/2008],
@@ -24,11 +24,20 @@ def load_data():
     )
 
 # Boolean to resize the dataframe, stored as a session state variable
-st.checkbox("Use container width", value=False, key="use_container_width")
+#st.checkbox("Use container width", value=False, key="use_container_width")
+
+excel_file = 'Fed_Rate.xlsx'
+sheet_name = 'Sheet1'
+
+df = pd.read_excel(excel_file,
+                   sheet_name=Sheet1,
+                   usecols='A:B',
+                   header=0)
+
 
 df = load_data()
 
-st.dataframe(df)
+#st.dataframe(df)
 st.line_chart(df)
 
 #st.title("Fed Fund Rate History")
