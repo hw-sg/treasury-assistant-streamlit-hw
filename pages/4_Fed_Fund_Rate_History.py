@@ -21,4 +21,5 @@ st.write("""The chart below shows the Fed Fund Rate History.""")
                    usecols='A:B',
                    header=0)
 df = pd.read_csv("Fed_Rate.csv")
-st.line_chart(df)
+#st.line_chart(df)
+st.dataframe(df)
