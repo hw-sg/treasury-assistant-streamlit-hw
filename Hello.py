@@ -29,7 +29,7 @@ def run():
     st.sidebar.success("Select an option above.")
 
     st.markdown(
-        """This app demonstrates the use of Gen A.I to perform sentiment analysis on FOMC speeches with the objective of deriving trading signals.  /n/n The app also has other useful functions such as showing the historical movement of Fed Fund Rates and Central Bank Meeting dates, so as to provide users with more information in a one-stop app."""
+        """This app demonstrates the use of Gen A.I to perform sentiment analysis on FOMC speeches with the objective of deriving trading signals.  /n  /n  The app also has other useful functions such as showing the historical movement of Fed Fund Rates and Central Bank Meeting dates, so as to provide users with more insights and convenience in a one-stop app."""
     )
 
 
