@@ -18,8 +18,8 @@ st.write("""The chart below shows the Fed Fund Rate History.""")
 def load_data():
     return pd.DataFrame(
         {
-            "Date": [1, 2, 3, 4],
-            "Fed_Rate": [10, 20, 30, 40],
+            "Date": [16/12/2008, 17/12/2008, 18/12/2008, 19/12/2008],
+            "Fed_Rate": [0.25, 0.25, 0.25, 0.5],
         }
     )
 
